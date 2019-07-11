@@ -1,0 +1,10 @@
+
+<!-- <h1>
+    {{message}}
+  </h1>
+
+
+  <app-component1  (childEvent)="message=$event"></app-component1> -->
+  
+  <input #myText type="text">
+  <button (click)="fireEvent(myText.value)">Send event </button>
